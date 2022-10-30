@@ -1,0 +1,51 @@
+{
+  "name": "chat_app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "proxy": "http://localhost/:8080",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@pubnub/react-chat-components": "^0.13.0",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "framer-motion": "^7.3.2",
+    "pubnub": "^7.2.0",
+    "pubnub-react": "^3.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0",
+    "sass": "^1.55.0",
+    "server": "^1.0.37",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@types/server": "^1.0.5",
+    "@vitejs/plugin-react": "^2.0.1",
+    "vite": "^3.0.7"
+  },
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonytega/chat_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonytega/chat_app/issues"
+  },
+  "homepage": "https://github.com/tonytega/chat_app#readme",
+  "description": ""
+}
