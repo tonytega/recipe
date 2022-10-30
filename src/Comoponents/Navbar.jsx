@@ -1,6 +1,6 @@
 import React from 'react'
 import {AppBar,Toolbar,styled, Typography,Box, InputBase, Badge, Avatar, Menu, MenuItem} from '@mui/material'
-import { Mail, Notifications, Pets } from '@mui/icons-material'
+import { Mail, MenuBook, Notifications, Pets } from '@mui/icons-material'
 import { display } from '@mui/system';
 import { useState } from 'react';
 
@@ -36,10 +36,10 @@ const UserBox = styled(Box)(({theme})=>({
 }))
 
   return (
-    <AppBar position='static'>
-        <StyledToolBar>
-            <Typography variant="h6" sx={{display: {xs:'none',sm:"block"}}} >Lama Dev</Typography>
-            <Pets sx={{display: {xs:'block',sm:"none"}}}/>
+    <AppBar sx={{position : 'sticky'}}>
+        <StyledToolBar sx={{backgroundColor:'green'}}>
+            <Typography variant="h6" sx={{display: {xs:'none',sm:"block"}}} >Recipe</Typography>
+            <MenuBook sx={{display: {xs:'block',sm:"none"}}}/>
             <Search><InputBase placeholder='search... '/></Search>
             <Icons>
             <Badge badgeContent={4} color="error">
